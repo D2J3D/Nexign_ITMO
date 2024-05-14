@@ -1,6 +1,19 @@
 # Learning Lab from Nexign and ITMO 
 
-## Dataset details
+## Smart validation. Outlet check
+Goal is to filter out inappropriate pictures (like a SIM image).
+
+An image is considered to be inappropriate if a human cannot evaluate the parity by looking at it
+### Dataset details
+Used parts of Chicago dataset (306 images)
+
+**Classes:**
+1. Good
+2. Trash
+
+## POSM detection and segmentation 
+
+### Dataset details
 Combined 2 datasets: 296297_project.tar (870 images) and 296300_project.tar (535 images)
 
 
@@ -17,3 +30,6 @@ Combined 2 datasets: 296297_project.tar (870 images) and 296300_project.tar (535
 - Crop: 0% Minimum Zoom, 20% Maximum Zoom
 - Blur: Up to 2.5px
 - Noise: Up to 1.2% of pixels
+
+**Model:** YOLOV8 from ultralytics 
+
