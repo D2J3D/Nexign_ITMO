@@ -4,6 +4,8 @@ import requests
 from io import BytesIO
 from PIL import Image
 
+# Parser of Chicago dataset images. Get links from .xlsx table and then save locally.
+
 BASE_DIR = "/home/den/Documents/nexign_ITMO/chicagoParsing/"
 # Read XLSX file using pandas
 file_path = BASE_DIR + 'links_to_chicago_imgs.xlsx' 
