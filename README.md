@@ -36,5 +36,5 @@ Combined 2 datasets: 296297_project.tar (870 images) and 296300_project.tar (535
 - Noise: Up to 1.2% of pixels
 
 ### Model
-YOLOV8 from ultralytics 
+YOLOv8 for POSM detection -> U-Net for segmentation -> Opencv for postprocessingn and area calculations 
 
