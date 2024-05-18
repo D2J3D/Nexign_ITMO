@@ -34,12 +34,25 @@ Combined 2 datasets: 296297_project.tar (870 images) and 296300_project.tar (535
 - Noise: Up to 1.2% of pixels
 
 ### Model
-1. YOLOv8 for POSM detection
+### 1. YOLOv8 for POSM detection
 
 **About:**
 
+Validation predicts and labels comparison
 
-3. detection + Instance Segmentation
+![image](https://github.com/D2J3D/Nexign_ITMO/assets/120342275/ed2e1497-ba52-4fd8-80b4-153c0df6173c)
+
+**Metrics and losses:**
+
+![image](https://github.com/D2J3D/Nexign_ITMO/assets/120342275/ef1bb39b-43a5-44a1-9eeb-9c783d7df76a)
+
+
+![image](https://github.com/D2J3D/Nexign_ITMO/assets/120342275/07053b21-384b-4543-91e6-a70387c509c4)
+
+![image](https://github.com/D2J3D/Nexign_ITMO/assets/120342275/aee33677-5cd4-42bd-9c99-00653d485d45)
+
+
+### 2. detection + Instance Segmentation
 
 **About:**
 
