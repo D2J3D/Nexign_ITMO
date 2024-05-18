@@ -44,6 +44,8 @@ Validation predicts and labels comparison
 
 **Metrics and losses:**
 
+![image](https://github.com/D2J3D/Nexign_ITMO/assets/120342275/56fb0291-50d5-4577-9671-421556178674)
+
 ![image](https://github.com/D2J3D/Nexign_ITMO/assets/120342275/ef1bb39b-43a5-44a1-9eeb-9c783d7df76a)
 
 
