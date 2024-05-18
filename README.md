@@ -1,5 +1,3 @@
-# Learning Lab from Nexign and ITMO 
-
 ## Smart validation. Outlet check
 Goal is to filter out inappropriate pictures (like a SIM image).
 
@@ -36,5 +34,29 @@ Combined 2 datasets: 296297_project.tar (870 images) and 296300_project.tar (535
 - Noise: Up to 1.2% of pixels
 
 ### Model
-YOLOv8 for POSM detection -> U-Net for segmentation -> Opencv for postprocessingn and area calculations 
+1. YOLOv8 for POSM detection
+
+**About:**
+
+
+3. detection + Instance Segmentation
+
+**About:**
+
+Validation predicts:
+
+![val_batch1_labels_51_ce96014e2ca197ca672e](https://github.com/D2J3D/Nexign_ITMO/assets/120342275/24183718-6900-4a14-9e34-ce3eb01bca0e)
+
+![image](https://github.com/D2J3D/Nexign_ITMO/assets/120342275/34177fbb-750a-4c36-b713-4545aed920da)
+
+![image](https://github.com/D2J3D/Nexign_ITMO/assets/120342275/6e6db631-5fdc-43e7-bc41-254e501f692d)
+
+![image](https://github.com/D2J3D/Nexign_ITMO/assets/120342275/96718bc2-d2b9-4233-8e05-79063e6cec3e)
+
+![image](https://github.com/D2J3D/Nexign_ITMO/assets/120342275/f69c41f0-cfd4-46b8-9d15-6bf9de63d739)
+
+
+
+
+
 
